@@ -16,9 +16,15 @@
       "homepage": "https://github.com/glushkovds"
     }
   ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/webstels/phpClickHouse"
+    }
+  ],
   "require": {
     "php": ">=7.1.0|>=8.0",
-    "smi2/phpclickhouse": "^1.4.2",
+    "webstels/phpclickhouse": "master",
     "the-tinderbox/clickhouse-builder": "^6.0",
     "illuminate/support": "^7.0|^8.0|^9.0",
     "illuminate/database": "^7.0|^8.0|^9.0"
